@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { MeanPipe } from './shared/Mean/mean.pipe';
 import { ReversePipe } from './shared/reverse.pipe';
 import { InitCapsPipe } from './shared/caps/init-caps.pipe';
+import { HighLightDirective } from './high-light.directive';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { InitCapsPipe } from './shared/caps/init-caps.pipe';
     HomeComponent,
     MeanPipe,
     ReversePipe,
-    InitCapsPipe
+    InitCapsPipe,
+    HighLightDirective
   ],
   imports: [
     RouterModule.forRoot(routes),

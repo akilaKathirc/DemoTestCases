@@ -26,3 +26,34 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # DemoTestCases
+
+
+#Testing Property and class binding
+voter component
+
+
+#Testing Event Binding
+voter component
+
+#Testing Dependencies
+Todos Component
+
+#Providing stub
+User-detail component
+
+#Testing Navigation
+User-detail component
+
+
+#Dealing with Route Parameters
+User-detail component
+
+
+#Testing RouterOutlet 
+app component
+
+#Testing Attribute directive
+high light Directive
+
+#Dealing with asynchronous methods
+Todoscomponent 
