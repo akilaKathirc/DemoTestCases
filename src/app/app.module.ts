@@ -14,6 +14,8 @@ import { MeanPipe } from './shared/Mean/mean.pipe';
 import { ReversePipe } from './shared/reverse.pipe';
 import { InitCapsPipe } from './shared/caps/init-caps.pipe';
 import { HighLightDirective } from './high-light.directive';
+import { FormsExampleComponent } from './forms-example/forms-example.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -28,9 +30,11 @@ import { HighLightDirective } from './high-light.directive';
     MeanPipe,
     ReversePipe,
     InitCapsPipe,
-    HighLightDirective
+    HighLightDirective,
+    FormsExampleComponent
   ],
   imports: [
+    ReactiveFormsModule,
     RouterModule.forRoot(routes),
     BrowserModule,
     HttpClientModule
