@@ -31,7 +31,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReversePipe,
     InitCapsPipe,
     HighLightDirective,
-    FormsExampleComponent
+    FormsExampleComponent,
   ],
   imports: [
     ReactiveFormsModule,
